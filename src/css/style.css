@@ -1,0 +1,84 @@
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../img/3.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-fluid {
+  height: 100%;
+}
+
+.row {
+  height: 100%;
+}
+
+.col-md-4 {
+  background-color: rgba(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  margin: 0;
+  display: flex;
+}
+
+.arrow-left {
+  position: absolute;
+}
+
+.arrow-left a i {
+  font-size: 30px;
+  color: #373737;
+  transition: .5s;
+}
+
+.arrow-left a:hover i {
+  font-size: 30px;
+  color: #1f1f1f;
+  transition: .5s;
+}
+
+.form-el {
+  width: 450px;
+  margin: auto;
+}
+
+.form-el img.logo {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.form-el img.user {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 50px;
+}
+
+.form-el h1 {
+  margin-bottom: 40px;
+}
+
+.form-el input {
+  margin-bottom: 20px;
+}
+
+.form-el input:nth-child(2) {
+  margin-top: 30px;
+}
+
+.form-el .form-check {
+  display: flex;
+  margin-top: 20px;
+}
+
+.col-md-8 .img {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+}
